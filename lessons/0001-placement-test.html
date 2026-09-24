@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>0001 · Where are you? A Dutch placement test</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<div class="progress" id="progress">Answered 0 of 37</div>
+
+<h1>Where are you?</h1>
+<p class="subtitle">Lesson 0001 · A Dutch placement test · about 20 minutes</p>
+
+<p class="toc"><a href="#part-0">0 · About you</a> <a href="#part-1">1 · Self-check</a> <a href="#part-2">2 · A1</a> <a href="#part-3">3 · A2</a> <a href="#part-4">4 · B1</a> <a href="#part-5">5 · B2</a> <a href="#part-6">6 · C1</a> <a href="#part-7">7 · Writing</a> <a href="#results">Results</a></p>
+
+<div class="card">
+<p><b>What this is.</b> One test, six mini-levels, from "I know nothing" to "I could pass as a local." Each level is a few questions. Answer what you can. Guessing is fine. Leaving blanks is fine. There is no feedback until the end, on purpose: the point is to measure, not to teach.</p>
+<p><b>How to finish.</b> At the bottom, press <b>Show my results</b>, then <b>Copy results</b>. Paste that text into the chat with your teacher (me). I will use it to write your learning records and pick lesson 0002.</p>
+<p><b>Levels.</b> The levels are the <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions">CEFR levels</a> (Common European Framework of Reference: A1 beginner, up to C2 mastery). Every Dutch course and exam in the Netherlands uses them.</p>
+</div>
+
+<h2 id="part-0">0 · About you</h2>
+<p>Only you can answer these. They shape what I teach next.</p>
+<div class="card">
+  <p><b>Have you studied Dutch before?</b></p>
+  <label><input type="radio" name="bg-studied" value="never"> Never. Zero.</label><br>
+  <label><input type="radio" name="bg-studied" value="apps"> A bit: apps, videos, picked up words.</label><br>
+  <label><input type="radio" name="bg-studied" value="course"> A real course, or serious self-study.</label><br>
+  <label><input type="radio" name="bg-studied" value="lived"> I have lived in the Netherlands or Belgium.</label>
+  <p><b>Do you know German?</b> <span class="gloss">(Dutch borrows a lot of its shape from German. It changes how fast we can go.)</span></p>
+  <label><input type="radio" name="bg-german" value="none"> No.</label><br>
+  <label><input type="radio" name="bg-german" value="some"> Some.</label><br>
+  <label><input type="radio" name="bg-german" value="fluent"> Fluent.</label>
+  <p><b>Other languages you speak, and how well:</b></p>
+  <input type="text" id="bg-langs" placeholder="e.g. Ukrainian (native), English (fluent), Russian, Polish…">
+  <p><b>Time you can give Dutch, per day or per week:</b></p>
+  <input type="text" id="bg-time" placeholder="e.g. 20 min a day, or 2 hours on Sunday">
+  <p><b>How do you like to learn?</b> <span class="gloss">(grammar first, lots of drills, reading, listening, talking, flashcards…)</span></p>
+  <input type="text" id="bg-style" placeholder="anything that has worked for you with other languages">
+</div>
+
+<h2 id="part-1">1 · Self-check</h2>
+<p>Tick the <b>highest</b> line that is honestly true today. Based on the <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions">CEFR global scale</a>.</p>
+<div class="card">
+  <label><input type="radio" name="self" value="pre-A1"> <b>Pre-A1</b> · I know a few words, or nothing.</label><br>
+  <label><input type="radio" name="self" value="A1"> <b>A1</b> · I can introduce myself and ask simple questions, if people speak slowly.</label><br>
+  <label><input type="radio" name="self" value="A2"> <b>A2</b> · I can shop, ask directions, and describe my background in simple terms.</label><br>
+  <label><input type="radio" name="self" value="B1"> <b>B1</b> · I can handle travel, tell a story, give reasons, and follow clear speech on familiar topics.</label><br>
+  <label><input type="radio" name="self" value="B2"> <b>B2</b> · I can talk with natives without strain, read complex texts, and argue a point.</label><br>
+  <label><input type="radio" name="self" value="C1"> <b>C1</b> · I speak fluently and flexibly at work, in study, and socially.</label><br>
+  <label><input type="radio" name="self" value="C2"> <b>C2</b> · I understand nearly everything and express fine shades of meaning.</label>
+</div>
+
+<h2 id="part-2">2 · Level A1</h2>
+<p class="meta">Greetings, articles, present tense, numbers.</p>
+<div id="q-a1"></div>
+
+<h2 id="part-3">3 · Level A2</h2>
+<p class="meta">Past tenses, inversion, separable verbs, comparison.</p>
+<div id="q-a2"></div>
+
+<h2 id="part-4">4 · Level B1</h2>
+<p class="meta">Subordinate clauses, <span class="nl">er</span>, passive, relative pronouns, d/t spelling.</p>
+<div id="q-b1"></div>
+
+<h2 id="part-5">5 · Level B2</h2>
+<p class="meta">Register, conditionals, verb clusters, idiom.</p>
+<div id="q-b2"></div>
+
+<h2 id="part-6">6 · Level C1</h2>
+<p class="meta">Things many native speakers get wrong.</p>
+<div id="q-c1"></div>
+
+<h2 id="part-7">7 · Writing</h2>
+<p>Two short tasks. Write in Dutch if you can, even badly. If you cannot, write one line in English saying so. Mistakes here are the most useful data in the whole test.</p>
+<div class="card">
+  <p><b>Informal.</b> Text a Dutch friend. Invite them to dinner at your place on Saturday. Three to five sentences.</p>
+  <textarea id="w-informal" placeholder="Hoi …"></textarea>
+  <p><b>Formal.</b> Email your landlord. The heating is broken. Ask them to send someone this week. Three to five sentences.</p>
+  <textarea id="w-formal" placeholder="Geachte …"></textarea>
+</div>
+
+<h2 id="results">Results</h2>
+<p class="no-print">
+  <button id="btn-grade">Show my results</button>
+  <button id="btn-copy" class="secondary" disabled>Copy results</button>
+  <button id="btn-download" class="secondary" disabled>Download results.txt</button>
+  <button id="btn-reset" class="secondary">Start over</button>
+</p>
+<div id="summary"></div>
+<pre id="out" hidden></pre>
+
+<div class="note">
+<p><b>Ask your teacher.</b> Anything unclear, any answer you disagree with, any question the test made you wonder about: ask in the chat. That is what I am for. If you think an answer key is wrong, say so. I will check it against <a href="https://taaladvies.net">Taaladvies.net</a> and the <a href="https://e-ans.ivdnt.org">ANS</a>, the reference grammar of Dutch.</p>
+</div>
+
+<footer>
+<p><b>Primary source for this lesson:</b> the official <a href="https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf">CEFR self-assessment grid</a> (one page, PDF), with the fuller <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions">Council of Europe level descriptions</a> behind it. Ten minutes of reading, and every "what level am I?" conversation for the rest of your Dutch life will make sense.</p>
+<p>Next: lesson 0002 will be chosen from your results. Your answers are saved in this browser until you press "Start over."</p>
+</footer>
+
+<script src="../assets/quiz.js"></script>
+<script>
+const Q = {
+  a1: [
+    { stem: '*Hoe ___ je?* (What is your name?)', options: ['heet', 'ben', 'heb'], answer: 0, explain: '*heten* = to be called. *Hoe heet je?* Literally "How are you called?"' },
+    { stem: '*Goedemorgen* means:', options: ['Good evening', 'Good morning', 'Good night'], answer: 1 },
+    { stem: '*___ huis is groot.* (The house is big.)', options: ['De', 'Den', 'Het'], answer: 2, explain: '*huis* is a *het*-word. Dutch has two articles, *de* and *het*. Learn the article with every noun.' },
+    { stem: '*twaalf* is the number:', options: ['12', '20', '2'], answer: 0 },
+    { stem: '*Wij ___ naar school.* (We go to school.)', options: ['gaat', 'gaan', 'ga'], answer: 1, explain: 'Plural subject, plural verb: *wij gaan*.' },
+    { stem: '*Dank je ___.* (Thank you.)', options: ['goed', 'veel', 'wel'], answer: 2 },
+    { stem: '*Ik woon ___ Utrecht.* (I live in Utrecht.)', options: ['in', 'op', 'bij'], answer: 0 },
+  ],
+  a2: [
+    { stem: '*Gisteren ___ ik naar Amsterdam.* (Yesterday I went to Amsterdam.)', options: ['ga', 'ging', 'gaat'], answer: 1, explain: '*gaan* is irregular: *ging* in the past.' },
+    { stem: '*Ik heb een brief ___.* (I have written a letter.)', options: ['schrijven', 'schreef', 'geschreven'], answer: 2, explain: 'Perfect tense = *hebben* + past participle (*ge-* form).' },
+    { stem: '*Morgen ___.* (Tomorrow I am going to work.) Which order?', options: ['ik ga werken', 'ga ik werken', 'ik werken ga'], answer: 1, explain: 'The verb must be the second element. *Morgen* is first, so the verb comes before *ik*. This is "inversion."' },
+    { stem: 'Which sentence is correct? (*opbellen* = to phone)', options: ['Ik bel mijn moeder op.', 'Ik opbel mijn moeder nu.', 'Ik bel op mijn moeder.'], answer: 0, explain: 'Separable verb: the prefix *op* goes to the end of the clause.' },
+    { stem: '*Amsterdam is ___ dan Utrecht.* (Amsterdam is bigger than Utrecht.)', options: ['grootst', 'groter', 'groot'], answer: 1 },
+    { stem: '*Ik ___ morgen niet komen.* (I cannot come tomorrow.)', options: ['kunt', 'kun', 'kan'], answer: 2 },
+    { stem: 'A small house: *een ___*', options: ['huisie', 'huisje', 'huisken'], answer: 1, explain: 'Diminutive *-je*. Dutch uses it constantly, and every diminutive is a *het*-word.' },
+  ],
+  b1: [
+    { stem: '*Ik denk dat ___.* (I think he is coming tomorrow.)', options: ['hij komt morgen', 'komt hij morgen', 'hij morgen komt'], answer: 2, explain: 'After *dat*, the verb goes to the end of the clause.' },
+    { stem: '*Heb je een fiets? — Ja, ik heb ___ een.* (Do you have a bike? Yes, I have one.)', options: ['het', 'er', 'die'], answer: 1, explain: 'Quantity *er*: "I have one of them." One of the four uses of *er*.' },
+    { stem: '*De brief wordt morgen ___.* (The letter will be sent tomorrow.)', options: ['verstuurt', 'verstuurd', 'versturen'], answer: 1, explain: 'Passive: *worden* + past participle. *verstuurd* with a *d*, since the stem *verstuur* does not end in a "\'t kofschip" consonant.' },
+    { stem: '*Ik blijf thuis, ___ ik ziek ben.* (I am staying home because I am ill.)', options: ['want', 'dus', 'omdat'], answer: 2, explain: '*omdat* sends the verb to the end (*ziek ben*). *want* would keep normal order: *want ik ben ziek*.' },
+    { stem: '*De man ___ daar staat, is mijn buurman.* (The man who is standing there is my neighbour.)', options: ['dat', 'die', 'wie'], answer: 1, explain: 'Relative pronoun: *die* for *de*-words, *dat* for *het*-words.' },
+    { stem: '*Hij ___ morgen twintig.* (He turns twenty tomorrow. Verb: *worden*.)', options: ['word', 'wort', 'wordt'], answer: 2, explain: 'Third person: stem + *t*. Stem *word* + *t* = *wordt*. The famous d/t trap.' },
+    { stem: '*Het is moeilijk ___ vroeg op te staan.* (It is hard to get up early.)', options: ['te', 'om', 'voor'], answer: 1, explain: '*om … te* + infinitive.' },
+  ],
+  b2: [
+    { stem: 'Formal email to someone whose name you do not know. The opening line:', options: ['Beste heer/mevrouw,', 'Hallo heer/mevrouw,', 'Geachte heer/mevrouw,'], answer: 2, explain: '*Geachte* is formal. *Beste* is neutral-friendly. *Hallo* is informal.' },
+    { stem: '*Als ik rijk was, ___ ik een huis kopen.* (If I were rich, I would buy a house.)', options: ['zal', 'zou', 'wil'], answer: 1, explain: '*zou* + infinitive = conditional "would".' },
+    { stem: '*Ik weet niet ___ hij komt.* (I do not know whether he is coming.)', options: ['als', 'dat', 'of'], answer: 2, explain: '*of* = whether. A common slip is *als*, which means "if" in the conditional sense only.' },
+    { stem: '*Je ___ niet te komen.* (You do not have to come.)', options: ['moet', 'hoeft', 'mag'], answer: 1, explain: '*niet hoeven te* = not have to. *niet moeten* means "must not".' },
+    { stem: '*Dat is een fluitje van een cent* means:', options: ['very cheap', 'very loud', 'very easy'], answer: 2, explain: 'Literally "a whistle of one cent". Idiom: a piece of cake.' },
+    { stem: '*Nadat hij ___, ging hij slapen.* (After he had eaten, he went to sleep.)', options: ['had eten', 'gegeten had', 'eet had'], answer: 1, explain: 'Pluperfect in a subordinate clause: participle and *had* both at the end.' },
+    { stem: '*Ik denk dat hij het ___.* (I think he could have done it.)', options: ['kunnen had doen', 'had kunnen doen', 'doen had kunnen'], answer: 1, explain: 'Verb cluster at the end: finite verb, then infinitives in order. Note *kunnen*, not *gekund*: the "infinitive instead of participle" rule.' },
+    { stem: '*Hij spreekt ___ Nederlands als Engels.* (He speaks both Dutch and English.)', options: ['beide', 'zowel', 'ook'], answer: 1, explain: '*zowel … als* = both … and.' },
+  ],
+  c1: [
+    { stem: 'In a formal letter, the usual replacement for *krijgen* (to get) is:', options: ['pakken', 'nemen', 'ontvangen'], answer: 2, explain: 'Register: *ontvangen* (receive) is the formal counterpart of *krijgen*.' },
+    { stem: '*Ik heb ___ gisteren gezien.* (I saw them yesterday.)', options: ['hun', 'hen', 'zij'], answer: 1, explain: 'Written standard: *hen* as direct object and after prepositions, *hun* as indirect object without preposition. Many natives get this wrong. See Taaladvies.net.' },
+    { stem: '*Hij is groter ___ ik.* (He is taller than me.)', options: ['als', 'dan', 'of'], answer: 1, explain: 'Standard: comparative + *dan*. *groter als* is very common in speech and marked as wrong in writing.' },
+    { stem: '*Leve de koning!* (Long live the king!) The verb form *leve* is:', options: ['an imperative', 'an infinitive', 'a subjunctive'], answer: 2, explain: 'A fossil of the *aanvoegende wijs* (subjunctive). Survives in fixed phrases: *leve*, *het zij zo*, *God zegene u*.' },
+    { stem: '*Je mag komen, ___ je op tijd bent.* (You may come, provided you are on time.)', options: ['tenzij', 'mits', 'hoewel'], answer: 1, explain: '*mits* = provided that. *tenzij* = unless. Opposites that learners swap.' },
+    { stem: 'Collocation: *een besluit ___* (to make a decision)', options: ['doen', 'maken', 'nemen'], answer: 2, explain: 'Dutch "takes" a decision, like Ukrainian *приймати рішення*.' },
+    { stem: 'Which spelling is correct?', options: ['onmiddelijk', 'onmiddellijk', 'onmidellijk'], answer: 1 },
+    { stem: '*Het rapport, ___ de conclusies omstreden zijn, verschijnt morgen.* (The report, whose conclusions are disputed, comes out tomorrow.)', options: ['waarvan', 'wiens', 'welke'], answer: 0, explain: '*wiens* is for (masculine) persons only. For things: *waarvan*.' },
+  ],
+};
+
+const LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1'];
+const ids = {};
+LEVELS.forEach(l => { ids[l] = Quiz.render('#q-' + l, Q[l], { mode: 'deferred', onChange: updateProgress }); });
+const TOTAL = LEVELS.reduce((n, l) => n + Q[l].length, 0);
+
+function updateProgress() {
+  const answered = LEVELS.reduce((n, l) => n + Quiz.state(ids[l]).answered, 0);
+  document.getElementById('progress').textContent = `Answered ${answered} of ${TOTAL}`;
+  save();
+}
+
+// Persistence (this browser only).
+const KEY = 'dutch-0001-placement';
+function save() {
+  const data = { picks: {}, fields: {} };
+  LEVELS.forEach(l => data.picks[l] = Quiz.state(ids[l]).picks);
+  document.querySelectorAll('input[type=radio]:checked').forEach(r => data.fields[r.name] = r.value);
+  ['bg-langs', 'bg-time', 'bg-style', 'w-informal', 'w-formal'].forEach(id => data.fields[id] = document.getElementById(id).value);
+  localStorage.setItem(KEY, JSON.stringify(data));
+}
+function load() {
+  const raw = localStorage.getItem(KEY); if (!raw) return;
+  const data = JSON.parse(raw);
+  Object.entries(data.fields || {}).forEach(([k, v]) => {
+    const el = document.getElementById(k);
+    if (el) el.value = v;
+    else { const r = document.querySelector(`input[name="${k}"][value="${v}"]`); if (r) r.checked = true; }
+  });
+  LEVELS.forEach(l => (data.picks[l] || []).forEach((p, qi) => {
+    if (p === null) return;
+    const r = document.querySelector(`#q-${l} .q[data-qi="${qi}"] input[value="${p}"]`);
+    if (r) { r.checked = true; r.dispatchEvent(new Event('change', { bubbles: true })); }
+  }));
+}
+document.querySelectorAll('input, textarea').forEach(el => el.addEventListener('input', save));
+load();
+
+function val(name) { const r = document.querySelector(`input[name="${name}"]:checked`); return r ? r.value : '(blank)'; }
+function txt(id) { return document.getElementById(id).value.trim() || '(blank)'; }
+
+function estimate(scores) {
+  // A level is "passed" at 70% or better. Estimated level = highest passed level with all lower levels also passed.
+  let level = 'pre-A1', shaky = null;
+  for (const l of LEVELS) {
+    const s = scores[l];
+    if (s.correct / s.total >= 0.7) level = l.toUpperCase();
+    else { if (s.correct / s.total >= 0.4) shaky = l.toUpperCase(); break; }
+  }
+  return { level, shaky };
+}
+
+document.getElementById('btn-grade').addEventListener('click', () => {
+  const scores = {};
+  LEVELS.forEach(l => scores[l] = Quiz.grade(ids[l]));
+  const { level, shaky } = estimate(scores);
+  const date = new Date().toISOString().slice(0, 10);
+  const lines = [
+    `DUTCH PLACEMENT RESULTS · lesson 0001 · ${date}`,
+    `Studied before: ${val('bg-studied')} | German: ${val('bg-german')} | Self-check: ${val('self')}`,
+    `Languages: ${txt('bg-langs')}`,
+    `Time: ${txt('bg-time')}`,
+    `Style: ${txt('bg-style')}`,
+    '',
+    LEVELS.map(l => `${l.toUpperCase()} ${scores[l].correct}/${scores[l].total}`).join(' | '),
+    `Estimated: ${level}${shaky ? ` (partial at ${shaky})` : ''}`,
+    'Wrong: ' + LEVELS.map(l => scores[l].wrong.length ? `${l.toUpperCase()}-${scores[l].wrong.join(',')}` : '').filter(Boolean).join(' ') || 'none',
+    '',
+    '--- Informal writing ---', txt('w-informal'),
+    '--- Formal writing ---', txt('w-formal'),
+  ];
+  const out = lines.join('\n');
+  document.getElementById('out').textContent = out;
+  document.getElementById('out').hidden = false;
+  document.getElementById('summary').innerHTML =
+    `<p class="score">Estimated level: <b>${level}</b>${shaky ? ` <span class="gloss">(some footing at ${shaky})</span>` : ''}.</p>
+     <p>Your answers are marked above. Scroll up to see what you got wrong and why. Then copy the block below and paste it into the chat.</p>`;
+  document.getElementById('btn-copy').disabled = false;
+  document.getElementById('btn-download').disabled = false;
+  document.getElementById('btn-grade').disabled = true;
+  document.getElementById('summary').scrollIntoView({ behavior: 'smooth' });
+});
+
+document.getElementById('btn-copy').addEventListener('click', async () => {
+  await navigator.clipboard.writeText(document.getElementById('out').textContent);
+  document.getElementById('btn-copy').textContent = 'Copied. Paste it in the chat.';
+});
+document.getElementById('btn-download').addEventListener('click', () => {
+  const blob = new Blob([document.getElementById('out').textContent], { type: 'text/plain' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'placement-results.txt'; a.click();
+});
+document.getElementById('btn-reset').addEventListener('click', () => {
+  if (confirm('Clear all answers?')) { localStorage.removeItem(KEY); location.reload(); }
+});
+</script>
+</body>
+</html>
