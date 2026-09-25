@@ -28,15 +28,15 @@ Every link below was checked on 2026-09-15 unless marked (unverified). Entries f
 - [Reference: Onze Taal Taalloket](https://onzetaal.nl/taalloket)
   Advice desk of Genootschap Onze Taal. Use for: style and register questions in formal writing.
 - [Reference: Dutchgrammar.com](https://www.dutchgrammar.com/en/grammar.php)
-  Free English-language grammar course with audio. Use for: A1–B1 rule lookups with clear English explanations.
+  Free English-language grammar course with audio. Blocks automated fetching (403), open in a browser. Use for: A1–B1 rule lookups with clear English explanations.
 - [Reference: Zichtbaar Nederlands](https://www.zichtbaarnederlands.nl/)
   Visual grammar with English versions. Use for: when a rule from Dutchgrammar.com is not clicking.
 - [Reference: Learndutch.org grammar lessons](https://www.learndutch.org/dutch-grammar/)
   50 free structured video lessons in English. Use for: A1–A2 grammar by video.
 
 ### Dictionaries
-- [Dictionary: Van Dale gratis woordenboek](https://www.vandale.nl/pages/gratis-woordenboek)
-  Free tier of the standard Dutch dictionary. Use for: default monolingual lookup.
+- [Dictionary: Van Dale](https://www.vandale.nl/)
+  The standard Dutch dictionary. The free online tier closed on 10 December 2025 (checked 2026-09-25); paid subscription only. Use for: register labels (informeel/formeel) if a subscription is ever bought. Free fallback: NL Wiktionary below.
 - [Dictionary: Woordenlijst.org (Groene Boekje)](https://woordenlijst.org/)
   Official Taalunie spelling list with word forms. Use for: spelling, plurals, verb forms in formal writing.
 - [Dictionary: Lingea Oekraïens–Nederlands](https://dict.com/oekraiens-nederlands)
