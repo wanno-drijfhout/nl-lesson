@@ -12,9 +12,9 @@ The learner may live in the Netherlands one day and wants Dutch in the toolbox b
 
 ## Constraints
 - Native language: Ukrainian. Fluent in English. Teaching happens in English; Ukrainian and English parallels are welcome when they make a concept click.
-- Starting level: unknown. Lesson 0001 is a placement test. Update this line with the result.
-- Time budget: not yet stated. Assume short daily sessions until told otherwise.
-- Learning style: not yet stated. Ask after the placement test.
+- Starting level: B2, partial C1 (placement test, 2026-09-25). Grammar is solid; free writing shows English/German interference. See learning record 0001.
+- Time budget: flexible (stated 2026-09-25). Lessons may run to 15 minutes.
+- Learning style: wants to expand vocabulary (stated 2026-09-25). Every lesson carries a short word list.
 
 ## Out of scope
 - Flemish (Belgian) Dutch. Focus on Netherlands Dutch. Flemish differences only as side notes.

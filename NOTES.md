@@ -18,6 +18,7 @@
 
 ## Session log
 - 2026-09-15: Workspace created. Lesson 0001 = placement test. Waiting for results.
+- 2026-09-25: Results in: B2, partial C1. Wrote learning record 0001, lesson 0002 (future without *zullen*), reference/future-and-plans.html, reference/glossary.html, assets/reveal.js (write-then-compare widget). Lesson plan from here: formal-letter vocabulary swaps, informal particles, nemen/doen/maken collocations, compound spelling.
 
 ## Incident, 2026-09-15
 - A 12 Sep session had already created MISSION.md, NOTES.md, RESOURCES.md, assets/style.css and lessons/0001-skills-assessment.html. My first `ls -la` printed nothing (the shell aliases ls to eza, which failed silently), so I wrote MISSION.md, NOTES.md and style.css fresh and overwrote the originals. No backup or transcript on this machine holds them. RESOURCES.md was not touched; its entries are merged into the new version.

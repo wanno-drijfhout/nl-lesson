@@ -102,3 +102,14 @@ footer { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--rule);
 .quiz-results.visible { display: block; }
 .level-badge { display: inline-block; font-family: var(--sans); font-weight: 600; padding: .3rem .8rem; border-radius: 999px; background: var(--accent-2); color: #fff; margin: .5rem 0; }
 .breakdown { font-size: .95rem; }
+
+/* Write-then-compare component (assets/reveal.js) */
+.reveal .q textarea { min-height: 3.5rem; margin-top: .25rem; }
+.reveal .model { margin-top: .5rem; border-top: 1px dashed var(--rule); padding-top: .5rem; }
+.reveal .model .nl-block { margin: .5rem 0; }
+
+/* Reference sheets */
+.ref-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 40rem) { .ref-grid { grid-template-columns: 1fr; } }
+dl.glossary dt { font-weight: 600; margin-top: .8rem; }
+dl.glossary dd { margin: .15rem 0 0 0; color: var(--fg); }
