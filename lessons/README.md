@@ -19,5 +19,6 @@ Do them in order. Each takes 12 to 15 minutes and ends with something to paste i
 - [0015 De knoop doorhakken: fifteen idioms](0015-idioms.html)
 - [0016 Man (34) aangehouden: reading newspaper headlines](0016-headlines.html)
 - [0017 Balen, zeg! Reacting like a Dutch friend](0017-reactions.html)
+- [0018 Met De Vries: the phone call](0018-phone-call.html)
 
 Reference sheets: [The future in Dutch](../reference/future-and-plans.html) · [The formal email](../reference/formal-email.html) · [Particles](../reference/particles.html) · [Collocations](../reference/collocations.html) · [Vocabulary](../reference/vocabulary.html) · [Glossary](../reference/glossary.html)
