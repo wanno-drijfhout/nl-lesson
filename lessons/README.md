@@ -23,5 +23,6 @@ Do them in order. Each takes 12 to 15 minutes and ends with something to paste i
 - [0019 Daar ben ik het niet mee eens: opinions, agreeing, disagreeing](0019-opinions.html)
 - [0020 Ik neem er drie: the four jobs of *er*](0020-er.html)
 - [0021 De cv-ketel doet het niet: asking the landlord for a repair](0021-repair-request.html)
+- [0022 Lekker weertje, hè? Small talk about the weather](0022-weather.html)
 
 Reference sheets: [The future in Dutch](../reference/future-and-plans.html) · [The formal email](../reference/formal-email.html) · [Particles](../reference/particles.html) · [Collocations](../reference/collocations.html) · [Vocabulary](../reference/vocabulary.html) · [Glossary](../reference/glossary.html)
