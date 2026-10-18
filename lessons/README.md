@@ -28,5 +28,6 @@ Do them in order. Each takes 12 to 15 minutes and ends with something to paste i
 - [0024 Zeg maar je: when to say *je* and when to say *u*](0024-je-or-u.html)
 - [0025 Kan ik dit ruilen? Taking something back to the shop](0025-returns.html)
 - [0026 Ik heb moeten wachten: saying sorry for being late](0026-running-late.html)
+- [0027 Het huis dat ik zoek: *die*, *dat*, *wat* at a house viewing](0027-die-dat-wat.html)
 
 Reference sheets: [The future in Dutch](../reference/future-and-plans.html) · [The formal email](../reference/formal-email.html) · [Particles](../reference/particles.html) · [Collocations](../reference/collocations.html) · [Vocabulary](../reference/vocabulary.html) · [Glossary](../reference/glossary.html)
