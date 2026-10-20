@@ -30,5 +30,6 @@ Do them in order. Each takes 12 to 15 minutes and ends with something to paste i
 - [0026 Ik heb moeten wachten: saying sorry for being late](0026-running-late.html)
 - [0027 Het huis dat ik zoek: *die*, *dat*, *wat* at a house viewing](0027-die-dat-wat.html)
 - [0028 Ik werk hier pas twee weken: *pas*, *maar*, *alleen*, *al* at a new job](0028-pas-maar-al.html)
+- [0029 Waar liggen mijn sleutels? *zitten*, *staan*, *liggen* while unpacking](0029-zitten-staan-liggen.html)
 
 Reference sheets: [The future in Dutch](../reference/future-and-plans.html) · [The formal email](../reference/formal-email.html) · [Particles](../reference/particles.html) · [Collocations](../reference/collocations.html) · [Vocabulary](../reference/vocabulary.html) · [Glossary](../reference/glossary.html)
