@@ -34,5 +34,6 @@ Do them in order. Each takes 12 to 15 minutes and ends with something to paste i
 - [0030 Ik voel me niet lekker: *me*, *je*, *zich* at the huisarts](0030-huisarts.html)
 - [0031 Uw pakket is bezorgd: the passive with *worden* and *zijn*](0031-passive.html)
 - [0032 Als ik jou was: *zou* for asking, advising and what-ifs](0032-als-ik-jou-was.html)
+- [0033 Is hij nog beschikbaar? *hij*, *hem*, *die* and *het* for things](0033-hij-hem-het.html)
 
 Reference sheets: [The future in Dutch](../reference/future-and-plans.html) · [The formal email](../reference/formal-email.html) · [Particles](../reference/particles.html) · [Collocations](../reference/collocations.html) · [Vocabulary](../reference/vocabulary.html) · [Glossary](../reference/glossary.html)
